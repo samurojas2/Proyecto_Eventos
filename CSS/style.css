@@ -1,0 +1,111 @@
+body {
+  background-image: url(../img/amazon.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Garantiza que el body ocupe al menos el 100% de la altura de la ventana */
+  overflow: hidden;
+}
+
+.menu-principal {
+  width: 200px;
+  max-height: 400px;
+  height: auto;
+  background: transparent;
+  padding: 5%;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.228);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;  /* Remover scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+button {
+  width:150px;
+  height: 40px;
+ 
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  padding: 3%;
+  margin-top: 20px;
+}
+
+button:hover{
+  background-color: rgb(214, 212, 212);
+  border: none;
+  scale: 1.1;
+}
+
+h1 {
+  background: linear-gradient(90deg, rgb(5, 146, 5), rgb(9, 195, 9));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.3px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-size: 2.5em;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  display: block;
+  list-style: none;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+
+button, a {
+  color: rgb(1, 68, 1);
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Botón de AyudA*/
+
+h2{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+p{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.atras{
+  width: 75px;
+  height: 20px;
+  font-size: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .menu-principal {
+      width: 200px;
+  }
+}
+
+
