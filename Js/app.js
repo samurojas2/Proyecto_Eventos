@@ -6,18 +6,18 @@ generarTablero()
 
 function cargarIconos() {
     iconos = [
-    '<img src="amazon.jpeg"><img/>',
-    '<img src="aguas.jpg"><img/>',
-    '<img src="amazoni.jpg"><img/>',
-    '<img src="Amazonie.jpg"><img/>',
-    '<img src="Arapaima.jpg"><img/>',
-    '<img src="canaima.jpg"><img/>',
-    '<img src="delfin.jpg"><img/>',
-    '<img src="Indian.jpg"><img/>',
-    '<img src="Jaguar.jpg"><img/>',
-    '<img src="rio.jpg"><img/>',
-    '<img src="victoria.jpg"><img/>',
-    '<img src="amazonia.jpg"><img/>',
+    '<img src="../img/amazon.jpeg"><img/>',
+    '<img src="../img/aguas.jpg"><img/>',
+    '<img src="../img/amazoni.jpg"><img/>',
+    '<img src="../img/Amazonie.jpg"><img/>',
+    '<img src="../img/Arapaima.jpg"><img/>',
+    '<img src="../img/canaima.jpg"><img/>',
+    '<img src="../img/delfin.jpg"><img/>',
+    '<img src="../img/Indian.jpg"><img/>',
+    '<img src="../img/Jaguar.jpg"><img/>',
+    '<img src="../img/rio.jpg"><img/>',
+    '<img src="../img/victoria.jpg"><img/>',
+    '<img src="../img/amazonia.jpg"><img/>',
     ]
     
     iconos.sort(function() { return 0.5 - Math.random() });
