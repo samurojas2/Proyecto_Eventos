@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="../img/Indian.jpg" alt="Tu imagen">
+</div>
+
+</body>
+</html>

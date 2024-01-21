@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Menú Principal</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="menu-principal">
+      <h1 class="text">Amazonia Juego de Memoria</h1>
+       <ul>
+         <button><a href="juego.html">Jugar</a></button>
+         <button class="puntaje" onclick="mostrarPuntaje()">Puntajes</button>
+         <button class="ayuda" onclick="mostrarAyuda()">Ayuda</button>
+      </ul>
+    </div>
+    <script>
+      function mostrarAyuda() {
+        var contenedor = document.querySelector('.menu-principal');
+        contenedor.innerHTML = `<h2>¿Cómo Jugar?</h2>
+        <p> Pues da click y ya</p>
+        <p class="modal__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsum porro maxime laboriosam voluptates explicabo perspiciatis sunt mollitia eum id, quis obcaecati? Incidunt labore saepe quam praesentium deserunt, dolorum nulla.
+        </p>
+        <button class="atras" onclick="location.reload()">Volver</button>`;
+      }
+
+      function mostrarPuntaje() {
+        var puntaje = document.querySelector('.menu-principal');
+        puntaje.innerHTML = `<p style="font-size: 30px"> Próximamente</p>
+        <button class="atras" onclick="location.reload()">Volver</button>`;
+      }
+    </script>
+  </body>
+</html>
