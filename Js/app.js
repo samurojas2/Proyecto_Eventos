@@ -52,7 +52,7 @@ function generarTablero(){
     selecciones = []
     let tablero = document.getElementById("tablero")
     let tarjetas = []
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 24; i++) {
         tarjetas.push(`
             <div class="area-tarjeta" onclick="seleccionarTarjeta(${i})">
             <div class="tarjeta" id="tarjeta${i}">

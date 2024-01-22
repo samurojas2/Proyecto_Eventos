@@ -13,16 +13,13 @@ body{
     -webkit-perspective: 1000;
     background-color: rgb(61, 194, 224);
     min-height: 100vh;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-}
-
-#pagina{
-    overflow: hidden;
 }
 
 div{
@@ -73,7 +70,7 @@ div{
 }
 
 i{
-    font-size: 100px;
+    font-size: 100%;
     background: rgb(5, 146, 5);
     border-radius: 60%;
 }
