@@ -60,7 +60,7 @@
 
 .modal__img{
     width: 50%;
-    margin-right: 10px;
+    margin-right: 150px;
 }
 
 .modal__content{
@@ -97,11 +97,13 @@
 
     .modal__paragraph{
         margin-top: 140px;
+        text-align: justify;
     }
 
     .modal__img{
         width: 60%;
         right: 15%;
+        margin-right: 15px;
     }
         
 }
