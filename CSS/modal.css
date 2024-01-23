@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: transparent;
+    backdrop-filter: blur(10px);
     display: flex;
     opacity: 0;
     pointer-events: none;
@@ -67,7 +67,7 @@
     display: flex;
     align-items: center;
     padding-top: 0%;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 .modal__close{
@@ -85,4 +85,23 @@
 .modal__close:hover{
     color: #346b4a;
     background-color: #fff;
+}
+
+@media (max-width: 682px){
+
+    .modal__content{
+        display: block;
+        align-items: center;
+        
+    }
+
+    .modal__paragraph{
+        margin-top: 140px;
+    }
+
+    .modal__img{
+        width: 60%;
+        right: 15%;
+    }
+        
 }

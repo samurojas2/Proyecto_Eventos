@@ -145,5 +145,10 @@ img{
       height: var(--h);
       position: fixed;
     }
+
+    .nuevoJuego{
+        width:60px;
+        height: 20px;
+    }
         
 }
