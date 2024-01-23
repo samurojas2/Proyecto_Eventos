@@ -2,8 +2,6 @@ let iconos = []
 let selecciones = []
 let contar = 0
 
-generarTablero()
-
 function cargarIconos() {
     iconos = [
     '<img src="../img/amazon.jpeg"><img/>',
@@ -34,25 +32,28 @@ function nuevoJuego(){
 function mostrarModal() {
     const modal = document.querySelector('.modal');
     const closeModal = document.querySelector('.modal__close');
+    const point = document.getElementById('puntos')
 
     // Muestra el modal automáticamente al llamar a la función
 
     modal.classList.add('modal--show');
+    point.innerHTML = `Tu puntaje fué: ${contar}`
 
     closeModal.addEventListener('click', (e) => {
         e.preventDefault();
         let intentos2 = document.getElementById("contador")
         intentos2.innerHTML = ``
         modal.classList.remove('modal--show');
+        nuevoJuego();
     });
 }
 
-function generarTablero(){
+function generarTablero(facil){
     cargarIconos()
     selecciones = []
     let tablero = document.getElementById("tablero")
     let tarjetas = []
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < facil; i++) {
         tarjetas.push(`
             <div class="area-tarjeta" onclick="seleccionarTarjeta(${i})">
             <div class="tarjeta" id="tarjeta${i}">
@@ -126,5 +127,5 @@ function verificarTarjetasOcultas() {
     
     // Si todas las tarjetas están ocultas, muestra una alerta
     mostrarModal();
-    nuevoJuego();
+    
 }

@@ -6,19 +6,20 @@
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./Js/app.js"></script>
   </head>
   <body>
     <div class="menu-principal">
-      <h1 class="text">Amazonia Juego de Memoria</h1>
+      <h1 class="text">Memoria Amazónica</h1>
        <ul>
-         <a href="juego.html"><button>Jugar</button></a>
+         <button onclick="niveles()">Jugar</button>
          <button class="puntaje" onclick="mostrarPuntaje()">Puntajes</button>
          <button class="ayuda" onclick="mostrarAyuda()">Ayuda</button>
       </ul>
     </div>
     <script>
       function mostrarAyuda() {
-        var contenedor = document.querySelector('.menu-principal');
+        let contenedor = document.querySelector('.menu-principal');
         contenedor.innerHTML = `<h2>¿Cómo Jugar?</h2>
         <p>Se encuentran un conjunto de cartas con imágenes iguales boca abajo. Debes levantar dos cartas, si las imágenes son iguales, te quedas con ese par. Si no son iguales, se vuelven a colocar boca abajo. El juego continúa hasta que se encuentran todos los pares y el jugador con menos intentos gana. </br>
         ¡Recuerda, el objetivo es recordar dónde están las cartas!</p>
@@ -26,9 +27,17 @@
       }
 
       function mostrarPuntaje() {
-        var puntaje = document.querySelector('.menu-principal');
+        let puntaje = document.querySelector('.menu-principal');
         puntaje.innerHTML = `<p style="font-size: 30px"> Próximamente</p>
         <button class="atras" onclick="location.reload()">Volver</button>`;
+      }
+
+      function niveles(){
+        let nivel = document.querySelector('.menu-principal');
+        nivel.innerHTML = `<h1>Elige tu dificultad</h1>
+                           <a href="juego.html"><button class="facil">Fácil</button></a>
+                           <a href="juego2.html"><button class="dificil">Difícil</button></a>
+                           <button class="atras" onclick="location.reload()">Volver</button>`;
       }
     </script>
   </body>

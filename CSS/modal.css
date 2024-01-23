@@ -24,8 +24,8 @@
 .modal__container{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 50%;
     overflow: auto;
     background-color: #fff;
     border-radius: 6px;
@@ -48,6 +48,10 @@
     margin-bottom: 0;
 }
 
+#puntos{
+    margin-bottom: 0;
+}
+
 .modal__paragraph{
     position:static;
     text-align:right;
@@ -63,6 +67,7 @@
     display: flex;
     align-items: center;
     padding-top: 0%;
+    margin-bottom: 35px;
 }
 
 .modal__close{

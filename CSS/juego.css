@@ -62,7 +62,6 @@ div{
 .cara{
     position: absolute;
     backface-visibility: hidden;
-    box-shadow: inset 0 0 0 4px #000000;
     border-radius: 10px;
     font-size: 400%;
     display: flex ;
@@ -77,6 +76,7 @@ div{
 
 .superior{
     background: linear-gradient(#8cc14c, #6cad41);
+    box-shadow: inset 0 0 0 4px #000000;
 }
 
 i{
@@ -88,6 +88,7 @@ i{
 img{
     width: var(--w);
     height: var(--h);
+    box-shadow: #000000;
     border-radius: 10px;
 }
 
@@ -116,4 +117,33 @@ img{
         transform: rotateY(0deg);
     }
     
+}
+
+@media (max-width: 682px){
+
+    :root{
+        --w: calc(100vw / 6);
+        --h: calc(50vh/4);
+        --iw: calc(135vw / 6);
+        --ih: calc(50vh/4);
+    }
+
+    #title{
+        font-size: 3rem;
+    }
+
+    .area-tarjeta,
+    .tarjeta,
+    .cara {
+        cursor: pointer;
+        width: var(--w);
+        height: var(--h);
+    }
+
+    img{
+      width: var(--w);
+      height: var(--h);
+      position: fixed;
+    }
+        
 }
