@@ -27,7 +27,7 @@ function cargarIconos() {
 function nuevoJuego(){
     const boton = document.getElementById("tablero")
 
-    boton.innerHTML = `<button class="novoJogo" onclick="location.reload()">Nuevo Juego</button>`;
+    boton.innerHTML = `<button class="nuevoJuego" onclick="location.reload()">Nuevo Juego</button>`;
 
 }
 
@@ -52,7 +52,7 @@ function generarTablero(){
     selecciones = []
     let tablero = document.getElementById("tablero")
     let tarjetas = []
-    for (let i = 0; i < 24; i++) {
+    for (let i = 0; i < 4; i++) {
         tarjetas.push(`
             <div class="area-tarjeta" onclick="seleccionarTarjeta(${i})">
             <div class="tarjeta" id="tarjeta${i}">

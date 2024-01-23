@@ -22,6 +22,7 @@
 }
 
 .modal__container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
     width: 400px;
     height: 400px;
@@ -44,25 +45,30 @@
 
 .modal__title{
     font-size: 2.5rem;
+    margin-bottom: 0;
 }
 
-.modal__paragraph1, .modal__paragraph2, .modal__paragraph3, .modal__paragraph4{
-    margin-bottom: 10px;
-    position: relative;
-    right: 100px;
-
+.modal__paragraph{
+    position:static;
+    text-align:right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .modal__img{
-    width: 40%;
-    position: relative;
-    right: 100px;
+    width: 50%;
+    margin-right: 10px;
+}
+
+.modal__content{
+    display: flex;
+    align-items: center;
+    padding-top: 0%;
 }
 
 .modal__close{
     text-decoration: none;
     color: #fff;
-    background-color: #F26250;
+    background-color: #346b4a;
     padding: 1em 3em;
     border: 1px solid ;
     border-radius: 6px;
@@ -72,6 +78,6 @@
 }
 
 .modal__close:hover{
-    color: #F26250;
+    color: #346b4a;
     background-color: #fff;
 }

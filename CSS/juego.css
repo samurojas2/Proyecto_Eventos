@@ -11,7 +11,7 @@ body{
     padding: 0;
     margin: 0;
     -webkit-perspective: 1000;
-    background-color: rgb(61, 194, 224);
+    background-image: url(../img/fondo.png);
     min-height: 100vh;
     overflow: hidden;
     display: flex;
@@ -19,20 +19,29 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 div{
     display: inline-block;
 }
 
-#contador{
-    color: black;
+#title{
+    color: rgb(0, 0, 0);
     position: static;
     padding: 1rem;
     text-align: center;
     width: 100%;
-    font-size: 3rem;
+    font-size: 4rem;
+}
+
+#contador{
+    color: rgb(0, 0, 0);
+    position: static;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
 }
 
 .area-tarjeta,
@@ -53,7 +62,8 @@ div{
 .cara{
     position: absolute;
     backface-visibility: hidden;
-    box-shadow: inset 0 0 0 5px white;
+    box-shadow: inset 0 0 0 4px #000000;
+    border-radius: 10px;
     font-size: 400%;
     display: flex ;
     justify-content: center;
@@ -61,45 +71,38 @@ div{
 }
 
 .trasera{
-    background-color: lightcyan;
+    background:transparent;
     transform: rotateY(180deg);
 }
 
 .superior{
-    background: linear-gradient(rgb(51, 119, 235), rgb(3, 6, 173));
+    background: linear-gradient(#8cc14c, #6cad41);
 }
 
 i{
     font-size: 100%;
-    background: rgb(5, 146, 5);
     border-radius: 60%;
-}
-
-.nuevoJuego{
-    cursor: pointer;
-    background: linear-gradient(rgb(51, 119, 235), rgb(3, 6, 173));
-    padding: 20px;
-    border-radius: 50px;
-    border: white 5px solid;
+    color: rgb(0, 0, 0);
 }
 
 img{
     width: var(--w);
     height: var(--h);
+    border-radius: 10px;
 }
 
-.novoJogo {
+.nuevoJuego {
     width:120px;
     height: 40px;
     border-radius: 10px;
     border: 2px solid rgb(0, 0, 0);
     background-color: white;
-    color: rgb(1, 68, 1);
+    color: #2b583d;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.novoJogo:hover{
+.nuevoJuego:hover{
   background-color: rgb(232, 227, 227);
   border: none;
   scale: 1.1;

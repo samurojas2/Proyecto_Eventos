@@ -1,7 +1,7 @@
 body {
-  background-image: url(../img/amazon.jpeg);
+  background-image: url(../img/am.jpg);
   background-size: cover;
-  background-position: center;
+  background-position:center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   margin: 0;
@@ -51,15 +51,20 @@ button {
 
 button:hover{
   background-color: rgb(214, 212, 212);
+  color: #21432e;
   border: none;
   scale: 1.1;
+}
+
+a:hover{
+  color: #21432e;
 }
 
 h1 {
   background: linear-gradient(90deg, rgb(5, 146, 5), rgb(9, 195, 9));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  -webkit-text-stroke: 0.3px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.5);
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   font-size: 2.5em;
@@ -78,7 +83,7 @@ ul {
 
 
 button, a {
-  color: rgb(1, 68, 1);
+  color: #346b4a;
   font-size: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -86,13 +91,17 @@ button, a {
 /* Botón de AyudA*/
 
 h2{
-  color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  background: linear-gradient(90deg, rgb(5, 146, 5), rgb(9, 195, 9));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.3px rgba(0, 0, 0, 0.5);
 }
 
 p{
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  text-align: center;
 }
 
 .atras{
