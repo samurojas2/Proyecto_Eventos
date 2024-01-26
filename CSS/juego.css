@@ -87,7 +87,6 @@ i{
 img{
     width: var(--w);
     height: var(--h);
-    box-shadow: #000000;
     border-radius: 10px;
 }
 
@@ -143,6 +142,10 @@ img{
       width: var(--w);
       height: var(--h);
       position: fixed;
+    }
+
+    i{
+        font-size: 70%
     }
 
     .nuevoJuego{
