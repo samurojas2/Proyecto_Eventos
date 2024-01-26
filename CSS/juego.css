@@ -49,7 +49,6 @@ div{
 .cara {
     cursor: pointer;
     width: var(--w);
-    min-width: 80px;
     height: var(--h);
 }
 
@@ -151,3 +150,4 @@ img{
     }
         
 }
+

@@ -4,7 +4,7 @@ let contar = 0
 
 function cargarIconos() {
     iconos = [
-    '<img src="../img/amazon.jpeg"><img/>',
+    '<img src="../img/amazon.jpg"><img/>',
     '<img src="../img/aguas.jpg"><img/>',
     '<img src="../img/amazoni.jpg"><img/>',
     '<img src="../img/Amazonie.jpg"><img/>',
