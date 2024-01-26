@@ -111,7 +111,7 @@ function deseleccionar(selecciones){
             trasera2.style.visibility = "hidden"
             setTimeout(verificarTarjetasOcultas, 500);
         }
-    }, 500);
+    }, 700);
 }
 
 function verificarTarjetasOcultas() {
