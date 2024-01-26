@@ -8,7 +8,7 @@ function cargarIconos() {
     '<img src="../img/aguas.jpg"><img/>',
     '<img src="../img/amazoni.jpg"><img/>',
     '<img src="../img/Amazonie.jpg"><img/>',
-    '<img src="../img/pesca.jpg"><img/>',
+    '<img src="../img/pesca.JPG"><img/>',
     '<img src="../img/canaima.jpg"><img/>',
     '<img src="../img/delfin.jpg"><img/>',
     '<img src="../img/Indian.jpg"><img/>',
