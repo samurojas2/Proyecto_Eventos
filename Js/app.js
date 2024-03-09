@@ -4,18 +4,18 @@ let contar = 0
 
 function cargarIconos() {
     iconos = [
-    '<img src="../img/amazon.jpg"><img/>',
-    '<img src="../img/aguas.jpg"><img/>',
-    '<img src="../img/amazoni.jpg"><img/>',
-    '<img src="../img/Amazonie.jpg"><img/>',
-    '<img src="../img/pesca.JPG"><img/>',
-    '<img src="../img/canaima.jpg"><img/>',
-    '<img src="../img/delfin.jpg"><img/>',
-    '<img src="../img/Indian.jpg"><img/>',
-    '<img src="../img/Jaguar.jpg"><img/>',
-    '<img src="../img/rio.jpg"><img/>',
-    '<img src="../img/victoria.jpg"><img/>',
-    '<img src="../img/amazonia.jpg"><img/>',
+    '<img src="../img/amazon.webp"><img/>',
+    '<img src="../img/aguas.webp"><img/>',
+    '<img src="../img/amazoni.webp"><img/>',
+    '<img src="../img/Amazonie.webp"><img/>',
+    '<img src="../img/pesca.webp"><img/>',
+    '<img src="../img/canaima.webp"><img/>',
+    '<img src="../img/delfin.webp"><img/>',
+    '<img src="../img/Indian.webp"><img/>',
+    '<img src="../img/Jaguar.webp"><img/>',
+    '<img src="../img/rio.webp"><img/>',
+    '<img src="../img/victoria.webp"><img/>',
+    '<img src="../img/amazonia.webp"><img/>',
     ]
     
     iconos.sort(function() { return 0.5 - Math.random() });
