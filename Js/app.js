@@ -7,7 +7,7 @@ function cargarIconos() {
     '<img src="../img/amazon.webp"><img/>',
     '<img src="../img/aguas.webp"><img/>',
     '<img src="../img/amazoni.webp"><img/>',
-    '<img src="../img/Amazonie.webp"><img/>',
+    '<img src="../img/amazonie.webp"><img/>',
     '<img src="../img/pesca.webp"><img/>',
     '<img src="../img/canaima.webp"><img/>',
     '<img src="../img/delfin.webp"><img/>',
